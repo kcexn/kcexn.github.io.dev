@@ -1,1 +1,15 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+  margin-left: -15px;
+}
 
+.bg-dark-blue {
+  background: #1a1a1a;
+}
+
+@media (max-width: 992px) {
+  #main-header img {
+    margin-left: 0px;
+  }
+}
