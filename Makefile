@@ -7,4 +7,5 @@ all: ./css/bootstrap.css ./css/style.css ./blog
 	sass --no-source-map ./scss/style.scss ./css/style.css
 
 ./blog: ./kcexn.github.io.blog.dev/_site/
+	rm -rf blog/
 	cp -r ./kcexn.github.io.blog.dev/_site/ blog/
