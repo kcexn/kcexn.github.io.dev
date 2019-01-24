@@ -16,6 +16,19 @@
   background: #1a1a1a;
 }
 
+.fill-card-deck-space {
+  background: inherit;
+  border-width: 0px;
+}
+
+#bio-blog-anchor {
+  color: #fff;
+  text-decoration: underline;
+}
+#bio-blog-anchor:hover {
+  color: blue;
+}
+
 @media (max-width: 992px) {
   #main-header img {
     margin-left: 0px;

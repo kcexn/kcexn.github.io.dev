@@ -18,6 +18,20 @@
   background: #1a1a1a;
 }
 
+.fill-card-deck-space {
+  background: inherit;
+  border-width: 0px;
+}
+
+#bio-blog-anchor {
+  color: #fff;
+  text-decoration: underline;
+
+  &:hover {
+    color: blue;
+  }
+}
+
 // Bootstrap md screen width is 992px
 @media (max-width: 992px) {
   #main-header {
