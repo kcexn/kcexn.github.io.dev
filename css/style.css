@@ -29,6 +29,14 @@
   color: blue;
 }
 
+#contact-body {
+  height: 95vh;
+}
+
+#contact-footer {
+  height: 5vh;
+}
+
 @media (max-width: 992px) {
   #main-header img {
     margin-left: 0px;
