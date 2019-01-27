@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="/blog/css/bootstrap.css" />
     <link rel="stylesheet" href="/blog/css/style.css" />
   </head>
-  <body>
+  <body class="bg-dark">
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark-blue">
-      <a href="#" class="navbar-brand"><h3>Kevin Exton</h3></a>
+    <nav
+      class="navbar navbar-expand-md navbar-dark bg-dark-blue sticky-top p-0"
+    >
+      <a href="#" class="navbar-brand ml-3"><h3>Kevin Exton</h3></a>
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -44,7 +46,9 @@
             >
           </li>
           <li class="nav-item">
-            <a href="/blog" class="nav-link active">Blog</a>
+            <a href="/blog/index.html" class="nav-link active"
+              >Blog</a
+            >
           </li>
           <li class="nav-item">
             <a href="https://kcexn.github.io/contact.html" class="nav-link"
@@ -62,14 +66,8 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              adipisci sunt perspiciatis ratione cumque quae id? Quia porro illo
-              veniam adipisci repellendus perferendis commodi quis soluta et
-              dolorem natus necessitatibus provident tempore eius voluptatibus
-              voluptatem incidunt voluptates saepe dignissimos voluptate,
-              ratione numquam! Natus expedita nesciunt quaerat id debitis
-              dignissimos quo?
+            <p class="lead mt-3">
+              A list of my blog articles related to my work.
               <a
                 href="/blog/feed.xml"
                 class="btn btn-info px-1 py-0"
@@ -79,7 +77,7 @@
             </p>
           </div>
         </div>
-        <div class="row mt-3" id="spacer-2"></div>
+        <div class="row mt-1" id="spacer-2"></div>
         
         <div class="row mt-3">
           <div class="col">
@@ -92,8 +90,7 @@
               <div class="card-body">
                 <div class="card-text">
                   <p class="lead">
-                     Open to read
-                    more ... 
+                     Over the course of 2018 I worked on my final year project at Monash University, with a focus on wireless communication. 
                   </p>
                 </div>
               </div>
@@ -116,8 +113,11 @@
 
 
     <!-- FOOTER -->
-    <footer id="blog-footer" class="bg-dark-blue text-white text-center p-3">
-      Copyright &copy; <span id="year"></span>
+    <footer
+      id="blog-footer"
+      class="bg-dark-blue text-white text-center p-0 fixed-bottom"
+    >
+      Copyright &copy; 2019
     </footer>
 
     <script
@@ -135,8 +135,5 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
-    <script>
-      $("#year").text(new Date().getFullYear());
-    </script>
   </body>
 </html>
