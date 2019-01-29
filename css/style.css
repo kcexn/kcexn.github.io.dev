@@ -5,11 +5,9 @@
 }
 
 .return-home {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 25px;
-  color: inherit;
-  text-decoration: none;
+  float: right;
+  margin-right: 3rem;
+  display: none;
 }
 
 .bg-dark-blue {
@@ -31,6 +29,12 @@
 
 @media (max-width: 992px) {
   #main-header img {
+    width: 100%;
+    height: 100%;
     margin-left: 0px;
+  }
+  #main-header .responsive-image {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
